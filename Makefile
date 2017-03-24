@@ -5,7 +5,7 @@
 ## Login   <guillaume.hitier@epitech.eu>
 ## 
 ## Started on  Fri Mar 24 01:36:36 2017 Guillaume HITIER
-## Last update Fri Mar 24 01:36:43 2017 Guillaume HITIER
+## Last update Fri Mar 24 01:51:28 2017 Guillaume HITIER
 ##
 
 NAME	= libmy_unit
@@ -44,4 +44,4 @@ fclean:	clean
 
 re:	fclean all
 
-.PHONY: all $(NAME) clean fclean re
+.PHONY: all $(NAME) static dynamic clean fclean re
